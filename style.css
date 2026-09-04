@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main, footer, a, div {
+    border: 2px solid black;
+}
+
+main {
+    width: 400px;
+    margin-inline: auto;
+    margin-top: 10px;
+}
+
+main > div {
+    width: 150px;
+    height: 150px;
+}
+
+a {
+    padding: 10px;
+    display: block;
+    width: fit-content;
+}
+
+main p {
+    border: 1px solid grey;
+    margin-bottom: 15px;
+}
+
+main p:nth-of-type(4) {
+    margin-bottom: 40px;
+}
+
+section div {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+section div:nth-of-type(2) {
+    margin-left: -20px;
+}
+
+footer {
+    margin: 10px 20px 30px 40px;
+}
